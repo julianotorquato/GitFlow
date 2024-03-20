@@ -55,3 +55,12 @@ git push -u origin --all
 git push -u origin --tags
 
 ```
+
+#### Cherry Pick
+
+```
+git rev-parse d44f865 # convert short hash to commit hash 
+git cherry-pick -m 1 833be0ac1ebbf4448a2c24e04432ae523fd4bd06 # get cherry pick when simple command doesn't work cherry-pick xxx "error: commit 5f96728afeb2c8a70405243e78a9b905e29fb8d8 is a merge but no -m option was given."
+
+```
+
